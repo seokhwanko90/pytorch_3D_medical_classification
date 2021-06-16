@@ -1,0 +1,16 @@
+data/DCM_RP/1/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/5/nifti/rsp224_image.nii.gz 1
+data/DCM_RP/21/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/22/nifti/rsp224_image.nii.gz 1
+data/DCM_RP/35/nifti/rsp224_image.nii.gz 1
+data/DCM_RP/37/nifti/rsp224_image.nii.gz 1
+data/DCM_RP/45/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/7012/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/7023/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/7036/nifti/rsp224_image.nii.gz 1
+data/DCM_RP/7042/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/7060/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/7082/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/1039/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/1045/nifti/rsp224_image.nii.gz 0
+data/DCM_RP/1046/nifti/rsp224_image.nii.gz 0

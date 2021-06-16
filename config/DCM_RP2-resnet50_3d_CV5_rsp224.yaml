@@ -1,0 +1,38 @@
+DATASET:
+  root_dataset: "./data/"
+  list_train: "./data/DCM_RP2/rsp224/CV5_Train_rsp224.txt"
+  list_val: "./data/DCM_RP2/rsp224/CV5_Val_rsp224.txt"
+  list_test: "./data/DCM_RP2/rsp224/Test_rsp224.txt"
+  md_classes: ['NOR', 'ABN']
+  num_class: 2
+  spatial_size : 224
+  sample_count : 224
+  random_flip: True
+
+MODEL:
+  type: "Classification"
+  arch: "resnet50"
+  pretrained_path: "./pretrained/kinetics_resnet_50_RGB_16_best.pth"
+  pretrained_num_class: 600
+
+TRAIN:
+  tr_batchsize: 1
+  tr_num_epochs: 50
+  tr_epoch_num_iters: 1
+  ckpt_interval: -1
+  tr_optim: "SGD"
+  tr_lr: 0.001
+  tr_lr_pow: 0.5
+  tr_momentum: 0.9
+  tr_weight_decay: 1e-4
+  workers: 1
+
+VAL:
+  visualize: False
+  checkpoint: "model_epoch_50.pth"
+
+TEST:
+  checkpoint: "model_epoch_50.pth"
+  result: "./res503d224"
+
+CKPT_DIR: "ckpt/DCM_RP2/CV5_sRP224_sgd1e-4_pt"
