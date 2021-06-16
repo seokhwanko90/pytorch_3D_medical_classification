@@ -1,4 +1,4 @@
-# pytorch_3d_medical_classification
+# pytorch_3D_medical_classification
 
 ## Training datasets
   Lung CT images(nifti file format)
@@ -7,7 +7,7 @@
   * val   : 16 patients
 
 ## Model architecture
-  * 3d ResNet
+  * 3D ResNet
 
 ## Train/Val result graph
   * top train accuracy: 0.657
